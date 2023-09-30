@@ -38,10 +38,7 @@
 
   .portfolio-list {
     gap: 24px 72px;
-  }
-
-  .portfolio-items {
-    flex-basis: calc((100% - 24px) / 2);
+    justify-content: center;
   }
 
   /* Team section */
