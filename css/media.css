@@ -47,9 +47,7 @@
   /* Team section */
   .team-list {
     gap: 64px 24px;
-  }
-  .section-team-items {
-    flex-basis: calc((100% - 24px) / 2);
+    justify-content: center;
   }
 }
 
