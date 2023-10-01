@@ -47,9 +47,6 @@ img {
   max-width: 320px;
   padding: 0 15px;
   margin: 0 auto;
-
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 /* Header */
 .header {
@@ -301,7 +298,6 @@ img {
 
 .section-team-items {
   background-color: #ffffff;
-
   /* width: calc((100% - 72px) / 4); */
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -453,28 +449,23 @@ img {
 }
 
 /* Footer */
-
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
-}
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
+  padding: 98px 0;
 }
 
-.footer-text {
-  color: #f4f4fd;
-  max-width: 264px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  flex-wrap: wrap;
+.footer-flex {
+  margin-bottom: 72px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 18px;
 }
 
 .footer .logo-accent {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: var(--font-logo);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -482,9 +473,20 @@ img {
   text-transform: uppercase;
 }
 
+.footer-text {
+  color: #f4f4fd;
+  max-width: 288px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-social {
+  margin-bottom: 72px;
+}
+
 .footer-social-text {
+  text-align: center;
   color: #fff;
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -493,6 +495,8 @@ img {
 
 .footer-social-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
 }
 
@@ -520,28 +524,8 @@ img {
   background-color: #31d0aa;
 }
 
-.footer .container {
-  display: flex;
-  justify-content: start;
-  align-items: baseline;
-}
-
-.footer-flex {
-  margin-right: 120px;
-}
-
-.footer-social {
-  margin-right: 80px;
-}
-
-/* Footer-subscribe  */
-
-.subscribe-form {
-  display: flex;
-  gap: 24px;
-}
-
 .footer-subscribe-input {
+  margin-bottom: 16px;
   background-color: transparent;
   color: #fff;
   height: 40px;
@@ -572,6 +556,7 @@ img {
   letter-spacing: 0.04em;
   /* Button */
   background-color: #4d5ae5;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
