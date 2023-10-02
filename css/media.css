@@ -162,6 +162,17 @@
   .footer-social-text {
     text-align: left;
   }
+
+  /* Modal */
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+  }
+
+  .modal-checkbox-label-link {
+    margin-left: 0;
+  }
 }
 
 /* Desktop */
