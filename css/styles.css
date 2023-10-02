@@ -539,6 +539,7 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 18px;
+  padding: 0;
 }
 
 .footer .logo-accent {
@@ -665,6 +666,8 @@ img {
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
