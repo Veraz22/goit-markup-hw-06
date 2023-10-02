@@ -537,7 +537,9 @@ img {
 }
 
 .footer-logo {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 18px;
   padding: 0;
 }
@@ -601,6 +603,11 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
+}
+.subscribe-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-subscribe-input {

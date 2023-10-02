@@ -153,6 +153,7 @@
   /* Footer */
   .footer-logo {
     margin-right: 0;
+    justify-content: start;
   }
 
   .footer-flex {
